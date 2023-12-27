@@ -1,0 +1,116 @@
+/* Home.css */
+
+  
+
+  
+/* Home.css */
+.hero-section {
+    background: url('/Users/williamhenriquez/cleaning-service-website/public/modern-3.webp') center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero-section button {
+    background-color: #fff;
+    color: #3498db;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hero-section button:hover {
+    background-color: #2980b9;
+  }
+  
+  .about-section,
+.cta-section {
+  padding: 50px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section {
+  background: linear-gradient(90deg,#ffffff 50%,rgba(255,255,255,0.001) 100%),
+  url('/Users/williamhenriquez/cleaning-service-website/public/modern-3.webp') center/cover;
+}
+
+.aboutUs {
+  flex :1;
+  text-align: center;
+}
+
+.empty {
+  flex: 1;
+}
+
+.about-section h2,
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-section p,
+.cta-section p {
+  font-size: 1.2rem;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.cta-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cta-section li {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #34495e;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #e74c3c;
+}
+
+
